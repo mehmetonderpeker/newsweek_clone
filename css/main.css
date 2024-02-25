@@ -1,0 +1,106 @@
+body {
+    background-color: #f0f2f5;
+    font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main-content {
+    margin-top: 30px;
+}
+
+article {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+article:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+/* Centering all text within articles */
+.article-info, .article-info h2, .article-info p {
+    text-align: center;
+}
+
+.article-info h2 a, .article-info p {
+    color: rgba(0, 0, 0, 0.832); 
+    font-weight: 600;
+    display: block;
+    text-decoration: none;
+    font-size: 1em;
+    margin: 0.5em 0;
+}
+
+.sidebar-widget {
+    padding: 20px;
+    background: linear-gradient(145deg, #6e8efb, #a777e3);
+    color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.sidebar-widget h3 {
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.list-unstyled {
+    padding-left: 0;
+}
+
+.list-unstyled li {
+    margin-bottom: 10px; /* Adds space between list items */
+}
+
+.list-unstyled li a {
+    color: #ffffff;
+    transition: color 0.2s ease;
+    text-decoration: none; /* Removes underline from links */
+}
+
+.list-unstyled li a:hover {
+    color: #daf7a6;
+    text-decoration: none; /* Ensures no underline appears on hover */
+}
+
+.btn-outline-primary {
+    border-color: #fff;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.btn-outline-primary:hover {
+    background-color: #fff;
+    color: #6e8efb;
+}
+
+article img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #343a40; /* Dark background for footer */
+}
+
+footer a.text-white:hover {
+    text-decoration: underline; /* Adds underlining on hover for better link visibility */
+}
+
+footer .bi {
+    font-size: 1.5rem; /* Adjusts the size of Bootstrap icons if used for social media links */
+}
+
+@media (max-width: 767px) {
+    .article, .sidebar-widget {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+}
+

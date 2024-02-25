@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Head -->
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Welcome to the Newsweek blog website.">
+    <meta name="keywords" content="blog, news">
+    <meta name="author" content="Mehmet Onder Peker">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/favicon.png" type="image/png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Helvetica+Neue:wght@400;700&display=swap">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css" rel="stylesheet">
+    
+    <title>Newsweek</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/navbar.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/sidebar.css" rel="stylesheet">
+  </head>
+
+  <!-- Body -->
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+          <!-- Logo for all screens -->
+          <a href="#" class="navbar-brand">
+              <img src="images/logo/logo_lg.svg" class="d-none d-lg-inline-block" alt="Large Logo" style="height: 100px;">
+              <img src="images/logo/logo-sm.svg" class="d-inline-block d-lg-none" alt="Small Logo" style="height: 50px;">
+          </a>
+          <!-- Toggle button for mobile view -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- Navbar content -->
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <!-- Left-aligned items for all screens -->
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item"><a href="#" class="nav-link">Samsung</a></li>
+                  <li class="nav-item"><a href="#" class="nav-link">Apple</a></li>
+                  <li class="nav-item"><a href="#" class="nav-link">Xiaomi</a></li>
+                  <li class="nav-item"><a href="#" class="nav-link">Tech News</a></li>
+              </ul>
+              <!-- Right-aligned search icon and other items for all screens -->
+              <ul class="navbar-nav ms-auto">
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarSearchDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          <i class="bi bi-search"></i>
+                      </a>
+                      <ul class="dropdown-menu" aria-labelledby="navbarSearchDropdown">
+                          <li><a class="dropdown-item" href="#">Search Feature</a></li>
+                      </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarSubscribeDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Subscribe
+                          <img src="images/navbar/nav-bar-img.jpg" class="img-fluid img-thumbnail rounded-circle ms-2" alt="Subscribe to Newsweek" style="height: 40px;">
+                      </a>
+                      <ul class="dropdown-menu" aria-labelledby="navbarSubscribeDropdown">
+                          <li><a class="dropdown-item" href="#">Subscribe Now</a></li>
+                          <li><a class="dropdown-item" href="#">Other Options</a></li>
+                      </ul>
+                  </li>
+                  <li class="nav-item">
+                      <a href="#" class="nav-link">Sign In</a>
+                  </li>
+              </ul>
+          </div>
+      </div>
+  </nav>
+
+    <div class="container-fluid main-content">
+      <div class="row">
+        <div class="col-12 col-lg-9">
+          <!-- Article 1 -->
+          <article>
+            <img src="images/main/galaxys24.jpeg" alt="Galaxy S24 Series Image" class="img-fluid">
+            <div class="article-info">
+              <h2><a href="#" style="color: red;">Samsung</a></h2>
+              <h2><a href="#">The Samsung Galaxy S24 series is officially here with all the AI features</a></h2>
+              <p>"The Galaxy S24 Ultra packs all the yearly upgrades you'd expect from a flagship phone. Samsung claims to use a brighter 2,600 nits 6.8-inch QHD+ AMOLED panel with flat edges. The new Gorilla Armor glass apparently helps reduce reflection by up to 75%. Inside the phone is Qualcomm's latest Snapdragon 8 Gen 3 for Galaxy chip..."</p>
+            </div>
+          </article>
+          
+          <div class="row">
+            <!-- Article 2 -->
+            <div class="col-12 col-md-6">
+              <article>
+                <img src="images/main/iphone15pro.jpeg" alt="Article Image" class="img-fluid">
+                <div class="article-info">
+                  <h2><a href="#" style="color: green;">Apple</a></h2>
+                  <h2><a href="#">Apple iPhone 15 Pro and iPhone 15 Pro Max launched with A17 Pro SoC</a></h2>
+                  <p>“Apple on September 12 launched iPhone 15 Pro and iPhone Pro Max powered by a new processor called A17 Pro. Available in similar sizes as the vanilla models, the new Apple iPhone 15 Pro models get a new Action Button with haptic feedback...”</p>
+                </div>
+              </article>
+            </div>
+            
+            <!-- Article 3 -->
+            <div class="col-12 col-md-6">
+              <article>
+                <img src="images/main/xiaomi14ultra.jpeg" alt="Highlighting Asia's Best Universities" class="img-fluid">
+                <div class="article-info">
+                  <h2><a href="#" style="color: orange;">Xiaomi</a></h2>
+                  <h2><a href="#">Xiaomi 14 Ultra goes official: A camera disguised as a phone</a></h2>
+                  <p>"With four large 50MP sensors, the Xiaomi 14 Ultra is a strong contender for the best camera smartphone of 2024..."</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Sidebar -->
+        <div class="col-12 col-lg-3">
+          <div class="sidebar-widget">
+            <h3>Latest Headlines</h3>
+            <ul class="list-unstyled">
+              <li><a href="#">New Nothing Phone (2a) leaked renders show it in two different colorways</a></li>
+              <li><a href="#">Asus ROG Phone 8/8 Pro pre-orders in the US might kick off in late February</a></li>
+              <li><a href="#">iPad road map features a major surprise coming in 2027 that might blow you away</a></li>
+              <li><a href="#">A cyberattack is being considered as the possible reason for this morning's AT&T nationwide outage</a></li>
+              <li><a href="#">Samsung unveils the Galaxy Fit 3: Bigger screen, new safety features, and more</a></li>
+              <li><a href="#">Some Pixel 8 Pro users say this popular app causes the battery to drain while the phone gets hot</a></li>
+              <li><a href="#">Google begins roll out of the more modern redesign of its sign-in page</a></li>
+              <li><a href="#">Samsung announces One UI 6.1, bringing Galaxy AI to the S23 series, Fold 5, Flip 5, and even Tab S9</a></li>
+              <li><a href="#" class="btn btn-outline-primary">See All Headlines</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="bg-dark text-white mt-5">
+      <div class="container py-4">
+          <div class="row text-center">
+              <div class="col-md-4 mb-3 mb-md-0">
+                  <h5 class="mb-3">Policies</h5>
+                  <ul class="list-unstyled">
+                      <li><a href="#" class="text-white">Privacy Notice</a></li>
+                      <li><a href="#" class="text-white">Cookie Notice</a></li>
+                      <li><a href="#" class="text-white">Copyright Policy</a></li>
+                      <li><a href="#" class="text-white">Data Policy</a></li>
+                  </ul>
+              </div>
+              <div class="col-md-4 mb-3 mb-md-0">
+                  <h5 class="mb-3">Agreement</h5>
+                  <ul class="list-unstyled">
+                      <li><a href="#" class="text-white">Subscriber Agreement & Terms of Use</a></li>
+                      <li><a href="#" class="text-white">Your Ad Choices</a></li>
+                      <li><a href="#" class="text-white">Accessibility</a></li>
+                  </ul>
+              </div>
+              <div class="col-md-4 mb-3 mb-md-0">
+                  <h5 class="mb-3">Follow Us</h5>
+                  <a href="#" class="text-white me-2"><i class="bi bi-twitter"></i></a>
+                  <a href="#" class="text-white me-2"><i class="bi bi-facebook"></i></a>
+                  <a href="#" class="text-white me-2"><i class="bi bi-instagram"></i></a>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-12 mt-3">
+                  <p class="mb-0 text-white text-center">©2024 Newsweek. All Rights Reserved.</p>
+              </div>
+          </div>
+      </div>
+  </footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
